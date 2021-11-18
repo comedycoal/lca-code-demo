@@ -1,16 +1,9 @@
+#pragma once
+
 #include <stdexcept>
 #include <vector>
 
-#define NO_NODE -2
-#define NOT_INITIALIZED -1
-
-enum DFS_ORDER
-{
-	LEFTRIGHT=1,
-	RIGHTLEFT,
-	RANDOM
-};
-
+// Class Tree implements 
 class Tree
 {
 private:
@@ -32,7 +25,7 @@ public:
 
 		m_count = 1;
 		m_pchildren.push_back(std::vector<int>());
-		m_pparent.push_back(NO_NODE);
+		m_pparent.push_back(-1);
 		m_pheight.push_back(0);
 		m_largestHeight = 0;
 	}
@@ -47,6 +40,7 @@ public:
 	int GetNodeCount() { return m_count; }
 	std::vector<int> GetChildren(int node);
 	std::vector<int> GetNodesOfHeight(int height);
+	void PrintInfo();
 
 	int AddChildNode(int parent);
 };

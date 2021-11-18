@@ -1,5 +1,7 @@
 #include "tree.h"
 
+#include <iostream>
+
 int Tree::GetRoot()
 {
 	return this->c_root;
@@ -44,4 +46,38 @@ int Tree::AddChildNode(int parent)
 		m_largestHeight = m_pheight[newNodeIdx];
 
 	return newNodeIdx;
+}
+
+void Print(std::vector<int> v)
+{
+	for (int i = 0; i < v.size(); ++i)
+		std::cout << v[i] << " ";
+}
+
+void Tree::PrintInfo()
+{
+	std::cout << "Nodes: " << this->GetNodeCount()
+			  << "\nHeight: " << this->GetTreeHeight();
+
+	for (int i = 0; i < this->GetTreeHeight(); ++i)
+	{
+		std::cout << "\nHeight " << i << ": ";
+		Print(this->GetNodesOfHeight(i));
+	}
+
+	for (int i = 0; i < this->GetNodeCount(); ++i)
+	{
+		std::cout << "\nChildren of " << i << ": ";
+		std::vector<int> c = this->GetChildren(i);
+		if (c.size() == 0)
+			std::cout << "None";
+		else
+			Print(c);
+	}
+
+	std::cout << "\nAll parents: ";
+	for (int i = 0; i < this->GetNodeCount(); ++i)
+	{
+		std::cout << this->GetParent(i) << " ";
+	}
 }
