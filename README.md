@@ -16,5 +16,5 @@ File "test.cpp" bao gồm mã chạy LCA bằng 3 thuật toán trên cây sau �
 
 Nguồn tham khảo:
 1. [cp-algorithms.com/graph/lca.html](https://cp-algorithms.com/graph/lca.html)
-2. [github.com/e-maxx-eng](http://github.com/e-maxx-eng
+2. [github.com/e-maxx-eng](http://github.com/e-maxx-eng)
 3. [vnoi.info/wiki/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor.md](https://vnoi.info/wiki/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor.md)
