@@ -1,5 +1,5 @@
 # lca-code-demo
-Mã nguồn C++ cho phần thuyết trình của nhóm 6 - 19CNTN ĐH KHTN, ĐHQG TP.HCM, bao gồm:
+Mã nguồn C++ cho phần thuyết trình của **nhóm 6 - 19CNTN ĐH KHTN, ĐHQG TP.HCM** trong môn **Nhập môn tư duy thuật toán** về chủ đề **Lowest Common Ancestor (LCA)** , bao gồm:
 
 - 19120159 – Trần Huy Vũ
 - 19120405 – Nguyễn Đình Trí
