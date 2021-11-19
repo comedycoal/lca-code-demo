@@ -13,3 +13,8 @@ Ba thuật toán có cách cài đặt riêng được chứa lần lượt tron
 
 File "test.cpp" bao gồm mã chạy LCA bằng 3 thuật toán trên cây sau đây:
 ![Cây có 16 đỉnh dùng làm ví dụ](https://github.com/sendnoose/lca-code-demo/blob/main/tree_in_test_cpp.png?raw=true)
+
+Nguồn tham khảo:
+1. [cp-algorithms.com/graph/lca.html](https://cp-algorithms.com/graph/lca.html)
+2. [github.com/e-maxx-eng](http://github.com/e-maxx-eng
+3. [vnoi.info/wiki/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor.md](https://vnoi.info/wiki/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor.md)
